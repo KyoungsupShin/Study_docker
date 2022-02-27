@@ -1,6 +1,6 @@
 Docker environment consideration & settings
 
-1. 환경
+1. 🚀 Environment
   - Intranet network: Docker download		
    docker pull imagename:5.5.0
    docker save imagename > imagename.tar
