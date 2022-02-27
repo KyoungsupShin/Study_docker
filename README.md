@@ -27,6 +27,7 @@ Docker Scenario
   ### 포트포워딩 hostpc local:2222 >> centos 10.0.2.15:22
   
 ![image](https://user-images.githubusercontent.com/66240947/155874795-1537b86f-c3a5-4e26-8d96-275b15be26df.png)
+![image](https://user-images.githubusercontent.com/66240947/155875640-decd4030-89ea-4a47-b3fc-b42633cd4af1.png)
 
 2. Docker를 설치
   <pre><code>yum update && yum install yum-utils device-mapper-persistent-data lvm2</code></pre>
