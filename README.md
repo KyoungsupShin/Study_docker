@@ -27,6 +27,9 @@ Docker Scenario
   ### 포트포워딩 hostpc local:2222 >> centos 10.0.2.15:22
   
 ![image](https://user-images.githubusercontent.com/66240947/155874795-1537b86f-c3a5-4e26-8d96-275b15be26df.png)
+ <pre><code>systemctl stop firewalld</code></pre>
+ <pre><code>systemctl disable firewalld</code></pre>
+  
 ![image](https://user-images.githubusercontent.com/66240947/155875640-decd4030-89ea-4a47-b3fc-b42633cd4af1.png)
 
 2. Docker를 설치
