@@ -35,7 +35,7 @@ Docker Scenario
   <pre><code>systemctl start docker</code></pre>
   <pre><code>systemctl enable docker</code></pre>
   <pre><code>docker -v</code></pre>
-  <pre><code>usermod -aG docker $USER</code></pre> #without super user login
+  <pre><code>usermod -aG docker $USER</code></pre>
   
 3. 해당 OS에 배포하기 위한 Docker container를 다운로드
   - container1. yolov5로 이미지의 물체를 검출, Daemon으로 이미지를 Listening (Application)
