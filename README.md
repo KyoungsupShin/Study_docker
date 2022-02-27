@@ -23,7 +23,15 @@ Docker environment consideration & settings
 
 Docker Scenario
 1. Virtual Box를 이용하여 CentOS7 설치, 네트워크 setting
-2. Interanet 환경에 Docker를 설치
+2. Docker를 설치
+  <pre><code>yum update && yum install yum-utils device-mapper-persistent-data lvm2</code></pre>
+  <pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></pre>
+  <pre><code>yum install docker-ce</code></pre>
+  <pre><code>sudo systemctl start docker</code></pre>
+  <pre><code>sudo systemctl enable docker</code></pre>
+  <pre><code>docker -v</code></pre>
+  <pre><code>sudo usermod -aG docker $USER</code></pre> #without super user login
+  
 3. 해당 OS에 배포하기 위한 Docker container를 다운로드
   - container1. yolov5로 이미지의 물체를 검출, Daemon으로 이미지를 Listening (Application)
   - container2. database로 container1에서의 결과를 받아 저장 (Backend)
