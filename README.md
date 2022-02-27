@@ -1,4 +1,4 @@
-Docker environment consideration & settings
+# Explanation: 도커 컨테이너를 이용하여 프론트앤드 - 백앤드 - 딥러닝 분석을 위한 3가지 솔루션을 실행, 통신, 저장 기능 구현 
 
 # 🚀 Environment
   - Intranet network: Docker download		
