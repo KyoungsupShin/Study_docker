@@ -2,9 +2,12 @@ Docker environment consideration & settings
 
 1. 🚀 Environment
   - Intranet network: Docker download		
-   docker pull imagename:5.5.0
-   docker save imagename > imagename.tar
-   docker load < imagename.tar
+  
+  docker pull imagename:5.5.0
+  
+  docker save imagename > imagename.tar
+  
+  docker load < imagename.tar
    
 2. Application
   - GPU: Nvidia-CUDA, RUNTIME
