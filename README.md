@@ -56,8 +56,8 @@ Docker Scenario
   <pre><code>docker images</code></pre>
   
 ### 4. volume mount를 진행하여 신규 이미지를 저장, 이미지 분석, 결과 저장, 결과 이미지를 return
-![image](https://user-images.githubusercontent.com/66240947/155876646-af205618-a7fd-4734-a16e-cc5b094a5518.png)
 docker create 
 
 ### 5. Port forwarding를 통해 container끼리 통신함. 
+![image](https://user-images.githubusercontent.com/66240947/155876646-af205618-a7fd-4734-a16e-cc5b094a5518.png)
 ### 6. Dockerfile로 작성
