@@ -1,6 +1,6 @@
 Docker environment consideration & settings
 
-# 1. 🚀 Environment
+# 🚀 Environment
   - Intranet network: Docker download		
   #### HOST PC
   <pre><code>docker pull imagename:5.5.0</code></pre>
@@ -9,12 +9,12 @@ Docker environment consideration & settings
   #### DEPLOYEE PC
   <pre><code>docker load < imagename.tar</code></pre>
   
-# 2. Application
+# 🚀 Application
   - GPU: Nvidia-CUDA, RUNTIME
   - PYTHON: 3.6
   - Github source(ex yolov5, detectron etc)
 
-# 3. Function
+# 🚀 Function
   - database connect
   - store semi-structured data
   - interface another container
