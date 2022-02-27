@@ -46,7 +46,7 @@ Docker Scenario
   <pre><code>docker pull ultralytics/yolov5</code></pre>
   
   - container2. database로 container1에서의 결과를 받아 저장 (Backend)
-  <pre><code>docker pull mysql:5.7</code></pre>
+  <pre><code>docker pull mysql:5.7.37</code></pre>
   
   - container3. Django webserver로 새로운 이미지를 받아 일정한 폴더로 저장 (Frondend, WAS)
   <pre><code>docker pull django</code></pre>
