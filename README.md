@@ -1,8 +1,8 @@
 Docker environment consideration & settings
 
 1. 환경
-  - Intranet network: Docker download
-
+  - Intranet network: Docker download		
+  
 2. Application
   - GPU: Nvidia-CUDA, RUNTIME
   - PYTHON: 3.6
