@@ -24,3 +24,4 @@ Docker Scenario
   - container3. Django webserver로 새로운 이미지를 받아 일정한 폴더로 저장 (Frondend, WAS)
 4. volume mount를 진행하여 신규 이미지를 저장, 이미지 분석, 결과 저장, 결과 이미지를 return
 5. Port forwarding를 통해 container끼리 통신함. 
+6. Dockerfile로 작성
