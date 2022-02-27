@@ -14,14 +14,14 @@ Docker environment consideration & settings
   - PYTHON: 3.6
   - Github source(ex yolov5, detectron etc)
 
-# 🔥 Function
+# 📚 Scenario & Function
   - database connect
   - store semi-structured data
   - interface another container
   - customize
   - deployment
 
-# 📚 Docker Scenario
+# 🔥 Docker Steps
 ### 📌 Virtual Box를 이용하여 CentOS7 설치, 네트워크 setting
 
   #### 포트포워딩 hostpc local:2222 >> centos 10.0.2.15:22
