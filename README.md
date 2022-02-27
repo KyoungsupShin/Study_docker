@@ -39,8 +39,14 @@ Docker Scenario
   
 3. 해당 OS에 배포하기 위한 Docker container를 다운로드
   - container1. yolov5로 이미지의 물체를 검출, Daemon으로 이미지를 Listening (Application)
+  <pre><code>docker pull ultralytics/yolov5</code></pre>
+  
   - container2. database로 container1에서의 결과를 받아 저장 (Backend)
+  <pre><code>docker pull mysql:5.7</code></pre>
+  
   - container3. Django webserver로 새로운 이미지를 받아 일정한 폴더로 저장 (Frondend, WAS)
+  <pre><code>ddocker pull django</code></pre>
+  
 4. volume mount를 진행하여 신규 이미지를 저장, 이미지 분석, 결과 저장, 결과 이미지를 return
 5. Port forwarding를 통해 container끼리 통신함. 
 6. Dockerfile로 작성
