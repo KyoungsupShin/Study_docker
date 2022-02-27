@@ -49,6 +49,7 @@ Docker Scenario
   <pre><code>docker pull mysql:5.7.37</code></pre>
   
   - container3. Django webserver로 새로운 이미지를 받아 일정한 폴더로 저장 (Frondend, WAS)
+  ##### django source code는 다른 repo 참고 필요!!!
   <pre><code>docker pull django</code></pre>
   
   - docker image 확인!!
