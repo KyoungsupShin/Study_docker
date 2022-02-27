@@ -2,13 +2,13 @@ Docker environment consideration & settings
 
 1. 🚀 Environment
   - Intranet network: Docker download		
+  # HOST PC
   <pre><code>docker pull imagename:5.5.0</code></pre>
+  <pre><code>docker save imagename > imagename.tar</code></pre>
   
+  # DEPLOYEE PC
+  <pre><code>docker load < imagename.tar</code></pre>
   
-  docker save imagename > imagename.tar
-  
-  docker load < imagename.tar
-   
 2. Application
   - GPU: Nvidia-CUDA, RUNTIME
   - PYTHON: 3.6
