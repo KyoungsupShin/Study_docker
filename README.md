@@ -23,6 +23,8 @@ Docker environment consideration & settings
 
 Docker Scenario
 1. Virtual Box를 이용하여 CentOS7 설치, 네트워크 setting
+![image](https://user-images.githubusercontent.com/66240947/155874683-11bd2e79-9d20-4899-b737-711f7049993f.png)
+
 2. Docker를 설치
   <pre><code>yum update && yum install yum-utils device-mapper-persistent-data lvm2</code></pre>
   <pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></pre>
