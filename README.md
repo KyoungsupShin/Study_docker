@@ -31,9 +31,9 @@ Docker Scenario
 2. Docker를 설치
   <pre><code>yum update && yum install yum-utils device-mapper-persistent-data lvm2</code></pre>
   <pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></pre>
-  <pre><code>yum install docker-ce</code></pre>
-  <pre><code>sudo systemctl start docker</code></pre>
-  <pre><code>sudo systemctl enable docker</code></pre>
+  <pre><code>yum install -y docker-ce</code></pre>
+  <pre><code>systemctl start docker</code></pre>
+  <pre><code>systemctl enable docker</code></pre>
   <pre><code>docker -v</code></pre>
   <pre><code>sudo usermod -aG docker $USER</code></pre> #without super user login
   
