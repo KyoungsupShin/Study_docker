@@ -24,7 +24,8 @@ Docker environment consideration & settings
 Docker Scenario
 1. Virtual Box를 이용하여 CentOS7 설치, 네트워크 setting
 
-  ###호스트 네트워크 작업자
+  ### 호스트 네트워크 작업자
+
 ![image](https://user-images.githubusercontent.com/66240947/155874795-1537b86f-c3a5-4e26-8d96-275b15be26df.png)
 
 2. Docker를 설치
