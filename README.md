@@ -1,17 +1,12 @@
 # 도커 컨테이너를 이용하여 프론트앤드 - 백앤드 - 딥러닝 분석을 위한 3가지 솔루션을 실행, 통신, 저장 기능 구현 
 
 # 🚀 Environment
-  - Intranet network: Docker download		
-  #### HOST PC
-  <pre><code>docker pull imagename:5.5.0</code></pre>
-  <pre><code>docker save imagename > imagename.tar</code></pre>
-  
-  #### DEPLOYEE PC
-  <pre><code>docker load < imagename.tar</code></pre>
-  
+  #### HOST PC - Virtual Box - Hyperviser - CentOS7
+    
 # 🎮 Application
   - GPU: Nvidia-CUDA, RUNTIME
   - PYTHON: 3.6
+  - MySQL: 5.6
   - Github source(ex yolov5, detectron etc)
 
 # 📚 Scenario & Function
@@ -55,7 +50,15 @@
   
   - docker image pulled check-out
   <pre><code>docker images</code></pre>
+
+### 📌 Docker base image download(off-line)
+  #### HOST PC
+  <pre><code>docker pull imagename:5.5.0</code></pre>
+  <pre><code>docker save imagename > imagename.tar</code></pre>
   
+  #### DEPLOYEE PC
+  <pre><code>docker load < imagename.tar</code></pre>
+
 ### 📌 volume mount to save new images, analyze for object detection, save result data etc
   <pre><code>docker create -d -v.. -p.. --name.. </code></pre>
 
