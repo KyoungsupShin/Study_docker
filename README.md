@@ -30,12 +30,16 @@
 ![image](https://user-images.githubusercontent.com/66240947/155875640-decd4030-89ea-4a47-b3fc-b42633cd4af1.png)
 
 ### 📌 Docker installation
-  <pre><code>yum update && yum install yum-utils device-mapper-persistent-data lvm2</code></pre>
+  <pre><code>yum -y update</code></pre>
+  <pre><code>yum install -y yum-utils</code></pre>
+  
   <pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></pre>
-  <pre><code>yum install -y docker-ce</code></pre>
+  <pre><code>yum install -y docker-ce docker-ce-cli containerd.io</code></pre>
+  
   <pre><code>systemctl start docker</code></pre>
   <pre><code>systemctl enable docker</code></pre>
   <pre><code>docker -v</code></pre>
+  
   <pre><code>usermod -aG docker $USER</code></pre>
   
 ### 📌 Docker base image download
