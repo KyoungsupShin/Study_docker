@@ -77,7 +77,7 @@
         "CreatedAt": "2022-03-01T01:42:05-05:00",
         "Driver": "local",
         "Labels": {},
-        "Mountpoint": "/var/lib/docker/volumes/mysql-volume/_data",
+        "Mountpoint": "/var/lib/docker/volumes/mysql-volume/_data", #This is the path to be mounted
         "Name": "mysql-volume",
         "Options": {},
         "Scope": "local"
