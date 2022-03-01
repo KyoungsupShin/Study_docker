@@ -63,6 +63,28 @@
   #### DEPLOYEE PC
   <pre><code>docker load < imagename.tar</code></pre>
 
+### 📌 Docker volume create
+  <pre><code>docker volume create mysql-volume </code></pre>
+  <pre><code>docker volume create django-volume </code></pre>
+  <pre><code>docker volume create yolov5-volume </code></pre>
+  
+  <pre><code>docker volume ls </code></pre>
+  
+  <pre><code>docker volume inspect yolov5-volume </code></pre>
+  <pre><code>
+  [
+    {
+        "CreatedAt": "2022-03-01T01:42:05-05:00",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/mysql-volume/_data",
+        "Name": "mysql-volume",
+        "Options": {},
+        "Scope": "local"
+    }
+]
+</code></pre>
+
 ### 📌 volume mount to save new images, analyze for object detection, save result data etc
   <pre><code>docker create -d -v.. -p.. --name.. </code></pre>
 
