@@ -85,13 +85,9 @@
     }
 ]
 </code></pre>
-
-### 📌 volume mount to save new images, analyze for object detection, save result data etc
-  <pre><code>docker run -d -v mysql-volume:/var/lib/mysql -p 33060:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql mysql </code></pre>
-
 ### 📌 start container to run.
-  <pre><code>docker run ... </code></pre>
-
+  <pre><code>docker run -d -v mysql-volume:/var/lib/mysql -p 33060:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql mysql </code></pre>
+  
 ### 📌 Modification python code(yolov5)
   ##### to wait and listen to new image (image, code)
   
