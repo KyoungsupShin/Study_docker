@@ -87,7 +87,7 @@
 </code></pre>
 
 ### 📌 volume mount to save new images, analyze for object detection, save result data etc
-  <pre><code>docker create -d -v.. -p.. --name.. </code></pre>
+  <pre><code>docker run -d -v mysql-volume:/var/lib/mysql -p 33060:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql mysql </code></pre>
 
 ### 📌 start container to run.
   <pre><code>docker run ... </code></pre>
